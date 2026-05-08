@@ -1,5 +1,6 @@
 # 🖼️ WebP to JPG Converter (Vercel Serverless)
-
+This actually node server that actully convert the response of link of image from webp and anyother formate to jpeg/jpg.
+There was a problem in uploading webp image on shopify store in bulk listing by using image link. So i made this and the image urls now returns image response in jpg formate.
 This project is a simple **serverless image converter** hosted on [Vercel](https://vercel.com).  
 It provides an API endpoint to convert images from **WebP** format to **JPG**, which is useful for platforms like **Shopify** that don’t fully support `.webp`.
 
@@ -29,7 +30,7 @@ webp-to-jpg-vercel/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/webp-to-jpg-vercel.git
+git clone https://github.com/afaqfaiz/webp-to-jpg-vercel.git
 cd webp-to-jpg-vercel
 ```
 
@@ -74,7 +75,7 @@ vercel --prod
 
 Your production endpoint will be:
 ```
-https://<your-project>.vercel.app/api/convert?url=<image-link>
+https://webp-to-jpg-vercel.vercel.app/api/convert?url=<image-link>
 ```
 
 ---
